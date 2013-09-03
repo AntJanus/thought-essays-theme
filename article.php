@@ -8,8 +8,6 @@
         <strong><?php echo article_author();?></strong>
         <hr />
         <time datetime="<?php echo date(DATE_W3C, article_time()); ?>"><?php echo article_date();?></time>
-         <hr />
-        <?php echo article_author();?>
       </p>
     </div>
     <div class="col-md-7">
