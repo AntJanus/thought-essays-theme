@@ -40,6 +40,13 @@
   margin-top: 8px;
   font-size: 40px;
 }
+.jumbotron h3 {
+  isplay: inline-block;
+  background: #ffffff;
+  margin-bottom: 0;
+  padding: 5px;
+  margin-top: 8px;
+}
 .list-group-item {
   padding-left: 0;
 }
