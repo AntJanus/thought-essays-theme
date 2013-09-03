@@ -58,11 +58,11 @@
   <div class="jumbotron">
     <div class="container">
       <h1>
-        <a id="logo" href="<?php echo base_url(); ?>"><?php echo site_name(); ?></a>
+        <a href="<?php echo base_url(); ?>"><?php echo site_name(); ?></a>
       </h1>
       <br />
       <h2>
-        Poetry
+        <?php echo category_title(); ?>
       </h2>
     </div>
   </div>

@@ -16,7 +16,7 @@
       <p class="meta">
         <?php echo article_author();?> | <time datetime="<?php echo date(DATE_W3C, article_time()); ?>"> | blah blah blah
       </p>
-      <?php echo article_markdown(); ?>
+      <?php echo article_description();?>
     </article>
   <?php endwhile; ?>
   <?php if(has_pagination()): ?>
