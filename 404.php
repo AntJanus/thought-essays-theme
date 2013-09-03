@@ -8,9 +8,8 @@
     </div>
     <div class="col-md-7">
       <h1 class="post-title">
-        <?php echo page_title(); ?>
+       404 - Not Found
     </h1>
-    <?php echo page_content(); ?>
 </div>
 <aside class="col-md-3" id="sidebar">
     <?php theme_include('sidebar'); ?>
