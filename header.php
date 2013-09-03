@@ -43,10 +43,10 @@
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
-            <?php while(menu_items()): ?>
-            <li <?php echo (menu_active() ? 'class="active"' : ''); ?>>
-              <a href="<?php echo menu_url(); ?>" title="<?php echo menu_title(); ?>">
-                <?php echo menu_name(); ?>
+            <?php while(categories()): ?>
+            <li>
+              <a href="<?php echo category_url(); ?>" title="<?php echo category_description(); ?>">
+                <?php echo category_title(); ?> <span><?php echo category_count(); ?></span>
               </a>
             </li>
           <?php endwhile; ?>
