@@ -16,17 +16,12 @@
     Latest Posts
   </h3>
   <ul class="list-group">
-    <li class="list-group-item">
-      <a href="#">Article 1</a>
+   <?php if(has_posts()): posts();
+    while(posts()): ?>
+    <li class="list-item">
+        <a href="<?php echo article_url(); ?>" title="<?php echo article_title(); ?>"><?php echo article_title(); ?></a>
     </li>
-    <li class="list-group-item">
-      <a href="#">Article 2</a>
-    </li>
-    <li class="list-group-item">
-      <a href="#">Article 3</a>
-    </li>
-    <li class="list-group-item">
-      <a href="#">Article 4</a>
-    </li>
+  <?php endwhile; ?>
+<?php endif; ?>
   </ul>
 </div>
