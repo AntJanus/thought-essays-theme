@@ -46,7 +46,7 @@
             <?php while(categories()): ?>
             <li>
               <a href="<?php echo category_url(); ?>" title="<?php echo category_description(); ?>">
-                <?php echo category_title(); ?> <span><?php echo category_count(); ?></span>
+                <?php echo category_title(); ?>
               </a>
             </li>
           <?php endwhile; ?>
