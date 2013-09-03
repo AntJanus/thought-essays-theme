@@ -7,30 +7,30 @@
       <p>
         <strong><?php echo article_author();?></strong>
         <hr />
-        <time datetime="<?php echo date(DATE_W3C, article_time()); ?>">
-          <hr />
-          <a href=" <?php echo category_url(); ?>" title=" <?php echo category_title(); ?>"><?php echo category_title(); ?></a>
-          <hr />
-          <?php echo article_author();?>
-        </p>
-      </div>
-      <div class="col-md-7">
-        <h1 class="post-title">
-          <?php echo article_title(); ?>
-        </h1>
-        <p class="meta visible-sm visible-xs">
-          <?php echo article_author();?> | <time datetime="<?php echo date(DATE_W3C, article_time()); ?>"><?php echo article_date();?></time> |  <a href=" <?php echo category_url(); ?>" title=" <?php echo category_title(); ?>"><?php echo category_title(); ?></a>
-        </p>
-        <?php echo article_markdown(); ?>
-      </div>
-      <aside class="col-md-3" id="sidebar">
-        <?php theme_include('sidebar'); ?>
-      </aside>
+        <time datetime="<?php echo date(DATE_W3C, article_time()); ?>"><?php echo article_date();?></time>
+        <hr />
+        <a href=" <?php echo category_url(); ?>" title=" <?php echo category_title(); ?>"><?php echo category_title(); ?></a>
+        <hr />
+        <?php echo article_author();?>
+      </p>
     </div>
-    <hr />
-    <p>
-      Created by <a href="http://antjanus.com">AntJanus</a>
-    </p>
+    <div class="col-md-7">
+      <h1 class="post-title">
+        <?php echo article_title(); ?>
+      </h1>
+      <p class="meta visible-sm visible-xs">
+        <?php echo article_author();?> | <time datetime="<?php echo date(DATE_W3C, article_time()); ?>"><?php echo article_date();?></time> |  <a href=" <?php echo category_url(); ?>" title=" <?php echo category_title(); ?>"><?php echo category_title(); ?></a>
+      </p>
+      <?php echo article_markdown(); ?>
+    </div>
+    <aside class="col-md-3" id="sidebar">
+      <?php theme_include('sidebar'); ?>
+    </aside>
   </div>
+  <hr />
+  <p>
+    Created by <a href="http://antjanus.com">AntJanus</a>
+  </p>
+</div>
 
-  <?php theme_include('footer'); ?>
+<?php theme_include('footer'); ?>
