@@ -49,6 +49,9 @@
 #sidebar h3:first-child {
   margin-top: 0;
 }
+#content img {
+  max-width: 100%;
+}
 @media (min-width: 992px) {
   .extra-left {
     margin-left: -55px;
