@@ -19,7 +19,7 @@
           <?php echo article_title(); ?>
         </h1>
         <p class="meta visible-sm visible-xs">
-          <?php echo article_author();?> | <time datetime="<?php echo date(DATE_W3C, article_time()); ?>"> |  <a href=" <?php echo category_url(); ?>" title=" <?php echo category_title(); ?>"><?php echo category_title(); ?></a>
+          <?php echo article_author();?> | <time datetime="<?php echo date(DATE_W3C, article_time()); ?>"><?php echo article_date();?></time> |  <a href=" <?php echo category_url(); ?>" title=" <?php echo category_title(); ?>"><?php echo category_title(); ?></a>
         </p>
         <?php echo article_markdown(); ?>
       </div>
