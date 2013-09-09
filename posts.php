@@ -7,7 +7,7 @@
      &nbsp;
    </div>
    <div class="col-md-7">
-    <?php if(has_posts()): posts();
+    <?php if(has_posts()):
     while(posts()): ?>
     <article class="post">
       <h2>

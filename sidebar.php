@@ -16,7 +16,7 @@
     Latest Posts
   </h3>
   <ul class="list-group">
-   <?php if(has_posts()): posts();
+   <?php if(has_posts()):
     while(posts()): ?>
     <li class="list-item">
         <a href="<?php echo article_url(); ?>" title="<?php echo article_title(); ?>"><?php echo article_title(); ?></a>
