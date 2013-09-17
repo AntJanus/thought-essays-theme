@@ -18,7 +18,7 @@
   <ul class="list-group">
    <?php if(has_posts()):
     while(posts()): ?>
-    <li class="list-item">
+    <li class="list-group-item">
         <a href="<?php echo article_url(); ?>" title="<?php echo article_title(); ?>"><?php echo article_title(); ?></a>
     </li>
   <?php endwhile; ?>
