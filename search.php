@@ -11,6 +11,7 @@
         You searched for &ldquo;<?php echo search_term(); ?>&rdquo;.
       </h1>
       <?php if(has_search_results()): ?>
+      <?php while(search_results()): ?>
       <article class="post">
         <h2>
           <a href="<?php echo article_url(); ?>" title="<?php echo article_title(); ?>"><?php echo article_title(); ?></a>
@@ -24,7 +25,6 @@
     </nav>
   <?php endif; ?>
 
-<?php endif; ?>
 <?php else: ?>
   <p>Unfortunately, there's no results for &ldquo;<?php echo search_term(); ?>&rdquo;. Did you spell everything correctly?</p>
 <?php endif; ?>
