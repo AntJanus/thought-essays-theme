@@ -1,3 +1,3 @@
-TODO:
+##Thought Essays Anchor CMS Theme
 
-* implement commenting system
+Based on my Bootstrap Thought Essays theme, I bring you the anchor cms theme of minimalism, maleability, and much more.
