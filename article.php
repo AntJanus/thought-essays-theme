@@ -19,12 +19,12 @@
       </p>
       <?php echo article_markdown(); ?>
 
-      <script type="text/javascript"><!--
-      google_ad_client = "ca-pub-9383125856979855";
-      /* Thought-Essay banner */
-      google_ad_slot = "4974831813";
-      google_ad_width = 728;
-      google_ad_height = 90;
+<script type="text/javascript"><!--
+google_ad_client = "ca-pub-9383125856979855";
+/* smaller-thoughts-banner */
+google_ad_slot = "7788697416";
+google_ad_width = 468;
+google_ad_height = 60;
 //-->
 </script>
 <script type="text/javascript"
