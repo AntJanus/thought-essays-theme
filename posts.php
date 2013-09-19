@@ -28,15 +28,22 @@
 <?php else: ?>
   <p>Looks like you have some writing to do!</p>
 <?php endif; ?>
+<script type="text/javascript"><!--
+google_ad_client = "ca-pub-9383125856979855";
+/* Thought-Essay banner */
+google_ad_slot = "4974831813";
+google_ad_width = 728;
+google_ad_height = 90;
+//-->
+</script>
+<script type="text/javascript"
+src="//pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
 </div>
 <div class="col-md-3" id="sidebar">
   <?php theme_include('sidebar'); ?>
 </div>
 </div>
-<hr />
-<p>
-  Created by <a href="http://antjanus.com">AntJanus</a>
-</p>
 </div>
 
 <?php theme_include('footer'); ?>
