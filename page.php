@@ -16,10 +16,6 @@
     <?php theme_include('sidebar'); ?>
 </aside>
 </div>
-<hr />
-<p>
-    Created by <a href="http://antjanus.com">AntJanus</a>
-</p>
 </div>
 
 <?php theme_include('footer'); ?>
