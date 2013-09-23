@@ -18,7 +18,7 @@
         <?php echo article_author();?> | <time datetime="<?php echo date(DATE_W3C, article_time()); ?>"><?php echo article_date();?></time>
       </p>
       <?php echo article_markdown(); ?>
-
+<div class="ad">
 <script type="text/javascript"><!--
 google_ad_client = "ca-pub-9383125856979855";
 /* smaller-thoughts-banner */
@@ -30,6 +30,7 @@ google_ad_height = 60;
 <script type="text/javascript"
 src="//pagead2.googlesyndication.com/pagead/show_ads.js">
 </script>
+</div>
 <div id="disqus_thread"></div>
 <script type="text/javascript">
 /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
