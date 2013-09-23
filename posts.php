@@ -28,6 +28,7 @@
 <?php else: ?>
   <p>Looks like you have some writing to do!</p>
 <?php endif; ?>
+<div class="ad">
 <script type="text/javascript"><!--
 google_ad_client = "ca-pub-9383125856979855";
 /* smaller-thoughts-banner */
@@ -39,6 +40,7 @@ google_ad_height = 60;
 <script type="text/javascript"
 src="//pagead2.googlesyndication.com/pagead/show_ads.js">
 </script>
+</div>
 </div>
 <div class="col-md-3" id="sidebar">
   <?php theme_include('sidebar'); ?>
