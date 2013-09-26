@@ -18,6 +18,7 @@
       </small><br />
       <?php echo article_description();?>
     </article>
+    <hr />
   <?php endwhile; ?>
   <?php if(has_pagination()): ?>
   <nav class="pagination">
