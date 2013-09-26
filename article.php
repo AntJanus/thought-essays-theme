@@ -6,8 +6,8 @@
     <div class="col-md-2 visible-md visible-lg">
       <p>
         <strong><?php echo article_author();?></strong>
-        <hr />
         <time datetime="<?php echo date(DATE_W3C, article_time()); ?>"><?php echo article_date();?></time>
+        <strong>About: </strong> <?php echo article_author_bio();?>
       </p>
     </div>
     <div class="col-md-7">
@@ -18,13 +18,13 @@
         <?php echo article_author();?> | <time datetime="<?php echo date(DATE_W3C, article_time()); ?>"><?php echo article_date();?></time>
       </p>
       <?php echo article_markdown(); ?>
-<div class="ad">
-<script type="text/javascript"><!--
-google_ad_client = "ca-pub-9383125856979855";
-/* smaller-thoughts-banner */
-google_ad_slot = "7788697416";
-google_ad_width = 468;
-google_ad_height = 60;
+      <div class="ad">
+        <script type="text/javascript"><!--
+        google_ad_client = "ca-pub-9383125856979855";
+        /* smaller-thoughts-banner */
+        google_ad_slot = "7788697416";
+        google_ad_width = 468;
+        google_ad_height = 60;
 //-->
 </script>
 <script type="text/javascript"
@@ -52,5 +52,6 @@ src="//pagead2.googlesyndication.com/pagead/show_ads.js">
       </aside>
     </div>
   </div>
+</div>
 
-  <?php theme_include('footer'); ?>
+<?php theme_include('footer'); ?>

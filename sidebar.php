@@ -12,16 +12,5 @@
   </form>
 </div>
 <div class="widget">
-  <h3>
-    Latest Posts
-  </h3>
-  <ul class="list-group">
-   <?php if(has_posts()):
-    while(posts()): ?>
-    <li class="list-group-item">
-        <a href="<?php echo article_url(); ?>" title="<?php echo article_title(); ?>"><?php echo article_title(); ?></a>
-    </li>
-  <?php endwhile; ?>
-<?php endif; ?>
-  </ul>
+
 </div>
