@@ -15,7 +15,7 @@
       </h2>
       <small class="meta">
         <?php echo article_author();?> | <time datetime="<?php echo date(DATE_W3C, article_time()); ?>"><?php echo article_date();?></time>
-      </small>
+      </small><br />
       <?php echo article_description();?>
     </article>
   <?php endwhile; ?>
