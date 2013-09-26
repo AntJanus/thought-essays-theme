@@ -1,0 +1,6 @@
+Theme Name: Thought Essays
+Description: This is AntJanus's Thought Essays Theme
+Author Name: Antonin Januska
+Author Site: http://antjanus.com
+
+
