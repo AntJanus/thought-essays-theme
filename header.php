@@ -6,6 +6,7 @@
   <link rel="stylesheet" href="<?php echo theme_url('/css/bootstrap.css'); ?>">
   <link rel="stylesheet" href="<?php echo theme_url('/css/theme.css'); ?>">
   <link rel="stylesheet" href="<?php echo theme_url('/css/app.css'); ?>">
+
   <link rel="alternate" type="application/rss+xml" title="RSS" href="<?php echo rss_url(); ?>">
   <link rel="shortcut icon" href="<?php echo theme_url('img/favicon.png'); ?>">
 
