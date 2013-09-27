@@ -2,13 +2,12 @@
   <h3>
     Search
   </h3>
-  <form class="row" action="<?php echo search_url(); ?>">
-    <div class="col-md-8">
-      <input type="text" class="form-control">
-    </div>
-    <div class="col-md-4">
-      <input type="submit" class="btn btn-default form-control">
-    </div>
+  <form action="<?php echo search_url(); ?>">
+  <div class="input-group">
+    <input type="search" class="form-control">
+    <span class="input-group-btn">
+      <input type="submit" value="Search!" class="btn btn-default">
+    </span>
   </form>
 </div>
 <div class="widget">
