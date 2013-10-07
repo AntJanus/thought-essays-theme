@@ -46,7 +46,7 @@
           <ul class="nav navbar-nav navbar-right">
             <?php while(categories()): ?>
             <li>
-              <a href="<?php echo category_url(); ?>" title="<?php echo category_description(); ?>">
+              <a href="<?php echo category_url(); ?>" title="<?php echo category_title(); ?>">
                 <?php echo category_title(); ?>
               </a>
             </li>
