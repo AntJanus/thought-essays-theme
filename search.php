@@ -1,8 +1,7 @@
 <?php theme_include('header'); ?>
 
 <div class="container" id="content">
-  <!-- Example row of columns -->
-  <div class="row">
+ <div class="row">
     <div class="col-md-2 visible-md visible-lg">
       &nbsp;
     </div>

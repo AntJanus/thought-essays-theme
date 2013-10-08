@@ -1,46 +1,17 @@
 <?php if(comments_open()): ?>
-        <section>
-            <?php if(has_comments()): ?>
-            <ul>
-                <?php $i = 0; while(comments()): $i++; ?>
-                <li id="comment-<?php echo comment_id(); ?>">
-                    <div >
-                        <h2><?php echo comment_name(); ?></h2>
-                        <time><?php echo relative_time(comment_time()); ?></time>
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = 'REPLACE!!!!'; // required: replace example with your forum shortname
 
-                        <div >
-                            <?php echo comment_text(); ?>
-                        </div>
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+          var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+          dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      })();
+      </script>
+      <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+      <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
 
-                        <span class="counter"><?php echo $i; ?></span>
-                    </div>
-                </li>
-                <?php endwhile; ?>
-            </ul>
-            <?php endif; ?>
-
-            <form id="comment" method="post" action="<?php echo comment_form_url(); ?>#comment">
-                <?php echo comment_form_notifications(); ?>
-
-                <p>
-                    <label for="name">Your name:</label>
-                    <?php echo comment_form_input_name('placeholder="Your name"'); ?>
-                </p>
-
-                <p>
-                    <label for="email">Your email address:</label>
-                    <?php echo comment_form_input_email('placeholder="Your email (won’t be published)"'); ?>
-                </p>
-
-                <p>
-                    <label for="text">Your comment:</label>
-                    <?php echo comment_form_input_text('placeholder="Your comment"'); ?>
-                </p>
-
-                <p>
-                    <?php echo comment_form_button(); ?>
-                </p>
-            </form>
-
-        </section>
-        <?php endif; ?>
+<?php endif; ?>
