@@ -20,6 +20,7 @@
         <?php echo article_author();?> | <time datetime="<?php echo date(DATE_W3C, article_time()); ?>"><?php echo article_date();?></time>
       </p>
       <?php echo article_markdown(); ?>
+      <?php theme_include('comments');?>
     </div>
     <aside class="col-md-3" id="sidebar">
       <?php theme_include('sidebar'); ?>
