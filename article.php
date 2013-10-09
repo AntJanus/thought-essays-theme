@@ -9,6 +9,8 @@
         <time datetime="<?php echo date(DATE_W3C, article_time()); ?>"><?php echo article_date();?></time>
         <br />
         <strong>About: </strong> <?php echo article_author_bio();?>
+        <br />
+        <strong>Word Count: </strong> <?php echo count_words(article_markdown()); ?>
       </p>
     </div>
     <div class="col-md-7">
