@@ -22,7 +22,6 @@
       <meta property="og:title" content="<?php echo page_title(); ?>">
       <meta property="og:type" content="website">
       <meta property="og:url" content="<?php echo current_url(); ?>">
-      <meta property="og:image" content="<?php echo theme_url('img/og_image.gif'); ?>">
       <meta property="og:site_name" content="<?php echo site_name(); ?>">
       <meta property="og:description" content="<?php echo site_description(); ?>">
 
