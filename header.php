@@ -35,7 +35,7 @@
 
   </head>
   <body class="<?php echo body_class(); ?>">
-    <div class="navbar navbar-default">
+    <div class="navbar navbar-default navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
