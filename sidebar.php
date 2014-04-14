@@ -1,4 +1,4 @@
-<div class="widget">
+<div class="widget hide">
   <h3>
     Search
   </h3>

@@ -9,20 +9,19 @@
     <?php if(has_posts()):
     while(posts()): ?>
     <article class="post">
-      <h2>
+      <h3>
         <a href="<?php echo article_url(); ?>" title="<?php echo article_title(); ?>"><?php echo article_title(); ?></a>
-      </h2>
+      </h3>
       <small class="meta">
         <?php echo article_author();?> | <time datetime="<?php echo date(DATE_W3C, article_time()); ?>"><?php echo article_date();?></time>
-      </small><br />
-      <?php echo article_description();?>
+      </small>
     </article>
     <hr />
   <?php endwhile; ?>
   <?php if(has_pagination()): ?>
   <nav class="pagination">
-      <?php echo posts_prev(); ?>
       <?php echo posts_next(); ?>
+      <?php echo posts_prev(); ?>
   </nav>
 <?php endif; ?>
 <?php else: ?>
