@@ -16,7 +16,7 @@
       <script src="<?php echo theme_url('/js/jquery.js'); ?>"></script>
       <script src="<?php echo theme_url('/js/bootstrap.min.js'); ?>"></script>
 
-      <meta name="viewport" content="width=device-width">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="generator" content="Anchor CMS">
 
       <meta property="og:title" content="<?php echo page_title(); ?>">
