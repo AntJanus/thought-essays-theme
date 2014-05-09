@@ -24,12 +24,24 @@
 
   a{
     padding: 10px;
+
+  }
+
+  &.home {
+    background-image: url('../img/logo-small-white.png');
+    background-position: center;
+
+    &:hover {
+        background-color: @white;
+        background-image: url('../img/logo-small.png');
+    }
   }
 }
 
 .navbar-default .navbar-nav > .active > a {
   background: @white;
 }
+
 
 .jumbotron {
   padding: 58px 0 46px;
