@@ -43,6 +43,9 @@
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
+            <li class="home">
+                <a href="/" title="<?php echo site_name(); ?>"></a>
+            </li>
             <?php while(categories()): ?>
             <li>
               <a href="<?php echo category_url(); ?>" title="<?php echo category_title(); ?>">
