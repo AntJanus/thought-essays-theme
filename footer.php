@@ -1,9 +1,9 @@
 <div class="container">
-<hr />
-<p>
+  <hr />
+  <p>
     Created by <a href="http://antjanus.com">AntJanus</a>
-</p>
+  </p>
 </div>
-  </body>
+</body>
 
 </html>
