@@ -1,6 +1,13 @@
+<?php
+$displayCategories = [
+  'poetry' => 'Poetry',
+  'prose' => 'Prose',
+  'thoughts-essays' => 'Thoughts & Essays',
+];
+?>
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
-  <title><?php echo page_title('Page can’t be found'); ?> - <?php echo site_name(); ?></title>
+  <title><?php echo page_title('Page can\'t be found'); ?> - <?php echo site_name(); ?></title>
 
   <meta name="description" content="<?php echo site_description(); ?>">
   <link rel="stylesheet" href="<?php echo theme_url('/css/bootstrap.css'); ?>">
@@ -46,13 +53,16 @@
             <li>
                 <a href="/" title="<?php echo site_name(); ?>" class="home"></a>
             </li>
-            <?php while(categories()): ?>
+            <?php foreach($displayCategories as $url => $name): ?>
             <li>
-              <a href="<?php echo category_url(); ?>" title="<?php echo category_title(); ?>">
-                <?php echo category_title(); ?>
+              <a href="<?php echo '/category/'.$url; ?>" title="<?php echo $name; ?>">
+                <?php echo $name; ?>
               </a>
             </li>
-          <?php endwhile; ?>
+          <?php endforeach; ?>
+          <li>
+              <a href="https://soundcloud.com/thoughtessays" title="Thought Essays Podcast">Podcast</a>
+          </li>
         </ul>
       </div>
       <!--/.navbar-collapse -->
